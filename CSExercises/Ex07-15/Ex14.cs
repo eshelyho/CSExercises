@@ -31,16 +31,19 @@ namespace CSExercises
             }
             else
             {
-                if ((a + b < c) || (a + c < b) || (c + b < a))
+                if ((a + b <= c) || (a + c <= b) || (c + b <= a))
                     {
-                        double s = (a + b + c) / 2;
-                        double area = Math.Sqrt(s * (s - a) * (s - b) * (s - c));
+                    System.Console.WriteLine("Please enter the right number!");
                     }
 
                 
                 else
                 {
-                    System.Console.WriteLine("Please enter the right number!");
+                    double s = (a + b + c) / 2;
+                    double area = Math.Sqrt(s * (s - a) * (s - b) * (s - c));
+
+                    System.Console.WriteLine("The area of the traigle is {0}.", area);
+
                 }
 
             }
