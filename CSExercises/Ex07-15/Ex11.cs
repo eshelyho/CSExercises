@@ -10,7 +10,14 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            
+            System.Console.WriteLine("Please enter the dustance traveled.");
+            String dt1 = System.Console.ReadLine();
+            double dt = System.Convert.ToDouble(dt1);
+            double total = 2.40 + dt * 0.4;
+
+            System.Console.WriteLine("The total fare is {0}", total);
+
+
         }
     }
 }
