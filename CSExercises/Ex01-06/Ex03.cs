@@ -10,16 +10,7 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            System.Console.WriteLine("Please enter a number");
-            String s = System.Console.ReadLine();
-
-            double d = Convert.ToDouble(s);
-
-
-            double a = Math.Pow(d, 2);
-
-            System.Console.WriteLine("The result is {0}", a);
-
+            
         }
     }
 }
