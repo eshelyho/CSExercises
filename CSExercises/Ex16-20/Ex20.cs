@@ -25,13 +25,13 @@ namespace CSExercises
 
             int sum = tv * 900 + dvd * 500 + mp3 * 700;
 
-            if (sum >= 10000) 
+            if (sum > 10000) 
             {
                 double total1 = (tv * 900 + dvd * 500 ) * 0.85 +mp3 * 700;
 
                 System.Console.WriteLine("The total prive is " + total1.ToString("C", curr));
             }
-            else if ((sum < 10000) && (sum >= 5000)) 
+            else if (sum < 10000) 
             {
                 double total2 = (tv * 900 + dvd * 500 ) * 0.90 +mp3 * 700;
 

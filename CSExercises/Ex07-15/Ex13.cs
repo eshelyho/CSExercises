@@ -13,7 +13,7 @@ namespace CSExercises
             System.Console.WriteLine("Please enter the dustance traveled.");
             String dt1 = System.Console.ReadLine();
             double dt = System.Convert.ToDouble(dt1);
-            double total = Math.Ceiling(2.40 + dt * 0.4);
+            double total = Math.Ceiling((2.40 + dt * 0.4)*10)/10;
 
             System.Console.WriteLine("The total fare is {0:0.00}", total);
 
